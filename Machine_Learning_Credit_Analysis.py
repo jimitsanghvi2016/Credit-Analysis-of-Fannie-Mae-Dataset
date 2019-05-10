@@ -52,7 +52,7 @@ def getDummies(df):
 
 
 # Creating the dataset with dummy variables	
-df = getdummies(df)
+df = getDummies(df)
 
 # The loan dataset is unbalanced i.e. 99% of the loans are categorized as non-default and only 1% of them are default. 
 # So to balance the dataset we use SMOTE (Synthetic Minority Oversampling Technique.
